@@ -1,0 +1,37 @@
+{
+  "dashboard": {
+    "title": "Dashboard",
+    "totalUsers": "Total Users",
+    "totalSales": "Total Sales",
+    "totalOrders": "Total Orders",
+    "growth": "Growth",
+    "salesOverview": "Sales Overview",
+    "recentActivity": "Recent Activity",
+    "newUser": "New user registered",
+    "orderCompleted": "Order #1234 completed",
+    "paymentReceived": "Payment received",
+    "newProduct": "New product added",
+    "systemUpdate": "System update completed",
+    "backupCompleted": "Backup completed"
+  },
+  "login": {
+    "welcome": "Welcome Back",
+    "signin": "Sign in to your account",
+    "email": "Email",
+    "password": "Password",
+    "signInBtn": "Sign In"
+  },
+  "error": {
+    "404": "404",
+    "notFound": "Page Not Found",
+    "desc": "The page you are looking for does not exist.",
+    "goHome": "Go Home"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "orders": "Orders",
+    "settings": "Settings",
+    "logout": "Logout"
+  }
+} 

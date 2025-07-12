@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { RouterProvider } from 'react-router-dom';
+import router from './routes/Router';
+import { ConfigProvider } from 'antd';
+import enUS from 'antd/locale/en_US';
+import viVN from 'antd/locale/vi_VN';
+import { useTranslation } from 'react-i18next';
+import 'antd/dist/reset.css';
 
 function App() {
+  const { i18n } = useTranslation();
+  const locale = i18n.language === 'en' ? enUS : viVN;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ConfigProvider
+      locale={locale}
+      theme={{
+        token: {
+          colorPrimary: '#1677ff', // màu mặc định Antd
+          borderRadius: 8,
+        },
+      }}
+    >
+      <RouterProvider router={router} />
+    </ConfigProvider>
   );
 }
 

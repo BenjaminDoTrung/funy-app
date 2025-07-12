@@ -1,0 +1,37 @@
+{
+  "dashboard": {
+    "title": "Bảng điều khiển",
+    "totalUsers": "Tổng người dùng",
+    "totalSales": "Tổng doanh số",
+    "totalOrders": "Tổng đơn hàng",
+    "growth": "Tăng trưởng",
+    "salesOverview": "Tổng quan doanh số",
+    "recentActivity": "Hoạt động gần đây",
+    "newUser": "Người dùng mới đăng ký",
+    "orderCompleted": "Đơn hàng #1234 đã hoàn thành",
+    "paymentReceived": "Đã nhận thanh toán",
+    "newProduct": "Sản phẩm mới được thêm",
+    "systemUpdate": "Cập nhật hệ thống hoàn tất",
+    "backupCompleted": "Sao lưu hoàn tất"
+  },
+  "login": {
+    "welcome": "Chào mừng trở lại",
+    "signin": "Đăng nhập vào tài khoản",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "signInBtn": "Đăng nhập"
+  },
+  "error": {
+    "404": "404",
+    "notFound": "Không tìm thấy trang",
+    "desc": "Trang bạn tìm kiếm không tồn tại.",
+    "goHome": "Về trang chủ"
+  },
+  "sidebar": {
+    "dashboard": "Bảng điều khiển",
+    "users": "Người dùng",
+    "orders": "Đơn hàng",
+    "settings": "Cài đặt",
+    "logout": "Đăng xuất"
+  }
+} 

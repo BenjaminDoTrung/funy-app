@@ -1,13 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #fff;
+}
+
+.ant-layout {
+  background: #fff !important;
+}
+
+.ant-layout-content {
+  background: #fff !important;
+}
+
+.ant-card {
+  background: #fff !important;
+}
+
+.ant-layout-sider {
+  background: #459c4d !important;
+}
+
+.ant-menu-dark, .ant-menu-dark .ant-menu-sub {
+  background: #459c4d !important;
+}
+
+/* Màu chữ và icon menu sidebar */
+.ant-menu-dark .ant-menu-item,
+.ant-menu-dark .ant-menu-submenu-title,
+.ant-menu-dark .ant-menu-item > .ant-menu-title-content,
+.ant-menu-dark .ant-menu-item .anticon,
+.ant-menu-dark .ant-menu-submenu-title .anticon {
+  color: #fff !important;
+}
+
+/* Khi hover/chọn: chữ và icon vàng nhạt */
+.ant-menu-dark .ant-menu-item-selected,
+.ant-menu-dark .ant-menu-item-active,
+.ant-menu-dark .ant-menu-item:hover {
+  color: #ffe082 !important;
+}
+.ant-menu-dark .ant-menu-item-selected .anticon,
+.ant-menu-dark .ant-menu-item-active .anticon,
+.ant-menu-dark .ant-menu-item:hover .anticon {
+  color: #ffe082 !important;
+}
+
+.ant-menu-dark .ant-menu-item-selected {
+  background: #465f46 !important;
+  color: #ffe082 !important;
+}
+.ant-menu-dark .ant-menu-item-selected .anticon {
+  color: #ffe082 !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
 }
