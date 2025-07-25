@@ -19,7 +19,12 @@
     "signin": "Đăng nhập vào tài khoản",
     "email": "Email",
     "password": "Mật khẩu",
-    "signInBtn": "Đăng nhập"
+    "signInBtn": "Đăng nhập",
+    "username": "Tên đăng nhập",
+    "remember": "Ghi nhớ đăng nhập",
+    "forgotPassword": "Quên mật khẩu?",
+    "usernameRequired": "Vui lòng nhập tên đăng nhập!",
+    "passwordRequired": "Vui lòng nhập mật khẩu!"
   },
   "error": {
     "404": "404",
@@ -33,5 +38,11 @@
     "orders": "Đơn hàng",
     "settings": "Cài đặt",
     "logout": "Đăng xuất"
+  },
+  "settings": {
+    "general": "Cài đặt chung",
+    "application": "Ứng dụng",
+    "security": "Bảo mật",
+    "notifications": "Thông báo"
   }
 } 

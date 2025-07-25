@@ -19,7 +19,12 @@
     "signin": "Sign in to your account",
     "email": "Email",
     "password": "Password",
-    "signInBtn": "Sign In"
+    "signInBtn": "Sign In",
+    "username": "Username",
+    "remember": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "usernameRequired": "Please input your username!",
+    "passwordRequired": "Please input your password!"
   },
   "error": {
     "404": "404",
@@ -33,5 +38,11 @@
     "orders": "Orders",
     "settings": "Settings",
     "logout": "Logout"
+  },
+  "settings": {
+    "general": "General Settings",
+    "application": "Application",
+    "security": "Security",
+    "notifications": "Notifications"
   }
 } 
